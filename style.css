@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+/* variables */
+:root {
+    --green: #9BCB3E;
+    --blue: #3FA0D9;
+    --white: #fff;
+    --bg: #F4F5F4;
+    --black: #000;
+
+}
+
+/* Universal elements */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Reusable code */
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    margin: 10px 10% 0 80px;
+}
+
+/* ======================================================Here Services Start======================================= */
+.blue-line {
+
+    max-width: 100%;
+    height: 85vh;
+    background-color: var(--black);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0 0;
+
+
+}
+
+.Heading h2 {
+    background-color: rgb(39, 36, 36);
+    padding: 5px 20px;
+    border-radius: 6px;
+    color: var(--white);
+}
+
+.Topic {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--white) !important;
+
+    line-height: var(--white) !important;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+
+    height: 350px;
+    width: 300px;
+    background-color: var(--bg);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    gap: 3rem;
+    float: center;
+    width: calc(25% - 20px);
+    border-radius: 10px;
+
+
+}
+
+.card:hover {
+    transform: translateY(-1rem);
+}
+
+h3 {
+    margin: 30px 0 0 0;
+    color: var(--black);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.card p {
+    padding: 30px 30px 0 30px;
+}
+
+.img-container {
+    margin: 80px 0 0 0;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.6s ease;
+    position: static;
+}
+
+.img-container:hover,
+.img-container:active {
+    border: 3px solid var(--white);
+    border-radius: 10px;
+    padding: 5px 0;
+
+}
+
+.img-container a {
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+
+
+.volintier {
+
+    width: 30%;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+/* =========================================From Here Vlounter form Starts====================================== */
+
+.vol-width {
+    border: 3px solid var(--blue);
+    max-width: 100%;
+    height: 85vh;
+    background-image: url(/images/images/child4.jpg);
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(50%);
+    opacity: 1;
+}
+
+.frm-container {
+    width: 520px;
+    height: 70vh;
+    background-color: gainsboro;
+    padding: 0 5px;
+    border-radius: 10px;
+    backdrop-filter: blur(14px);
+
+
+
+}
+
+.frm-container p {
+    margin-top: 15px;
+    font-size: 1.9rem;
+    text-align: center;
+    color: black;
+    opacity: 5;
+
+    /* this is why background is black*/
+}
+
+.frm-container p span {
+    color: var(--green);
+    opacity: 5;
+}
+
+.btn-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px;
+    opacity: 5;
+}
+
+button {
+    background-color: var(--green);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.btn-1 a {
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+    color: var(--white);
+
+    font-weight: 600;
+}
+
+/* ========================================Update Starts================= */
+.Update-container {
+    max-width: 100%;
+    height: 85vh;
+    background-color: var(--black);
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid var(--green);
+}
+
+.new-container {
+    background-color: #9BCB3E;
+    display: flex;
+    width: 70px;
+    height: 100vh;
+
+
+
+
+}
